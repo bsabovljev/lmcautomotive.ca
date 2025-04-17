@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LMC Automotive | Remote Starter Installation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <img src="logo.jpeg" alt="LMC Automotive Logo" class="h-12 w-auto">
+        <h1 class="text-2xl font-bold">LMC Automotive</h1>
+      </div>
+      <nav class="space-x-6 text-sm md:text-base">
+        <a href="#home" class="hover:text-blue-600">Home</a>
+        <a href="#options" class="hover:text-blue-600">Remote Starter Options</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="text-center py-20 px-6 bg-gradient-to-br from-blue-50 to-gray-100">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">Remote Starter Installations in Edmonton</h2>
+      <p class="text-lg text-gray-600 mb-6">With over <strong>10 years of experience</strong>, we provide professional installs of Compustar 1-Way, 2-Way, and DroneMobile systems. Customized to your vehicle. Fast. Clean. Reliable.</p>
+      <p class="text-md text-gray-700">Remote start season? We're ready. No mobile installs — come to us for top-quality work.</p>
+    </div>
+  </section>
+
+  <!-- Remote Starter Options Section -->
+  <section id="options" class="py-16 px-6">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12">Remote Starter Options</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+        <!-- 1-Way -->
+        <div class="bg-white rounded-2xl shadow p-6">
+          <img src="G17-1WAY-angled.png" alt="1-Way Remote" class="mx-auto mb-4 h-40">
+          <h3 class="text-xl font-semibold mb-2">1-Way Remote (G15/G17)</h3>
+          <ul class="text-left text-gray-600 list-disc list-inside space-y-1">
+            <li>Start your vehicle from up to <strong>3,000 ft</strong></li>
+            <li>Simple and reliable, no feedback</li>
+            <li>Compact keychain design</li>
+          </ul>
+        </div>
+
+        <!-- 2-Way LED -->
+        <div class="bg-white rounded-2xl shadow p-6">
+          <img src="G17-2WAY-angled.png" alt="2-Way LED Remote" class="mx-auto mb-4 h-40">
+          <h3 class="text-xl font-semibold mb-2">2-Way LED Remote (G15/G17)</h3>
+          <ul class="text-left text-gray-600 list-disc list-inside space-y-1">
+            <li>Confirmation via LED and chirp</li>
+            <li>Up to <strong>3,000 ft</strong> range</li>
+            <li>Rugged, weather-ready remote</li>
+          </ul>
+        </div>
+
+        <!-- 2-Way LCD -->
+        <div class="bg-white rounded-2xl shadow p-6">
+          <img src="Q9-2WAY-angled.png" alt="2-Way LCD Remote" class="mx-auto mb-4 h-40">
+          <h3 class="text-xl font-semibold mb-2">2-Way LCD Remote (Q9)</h3>
+          <ul class="text-left text-gray-600 list-disc list-inside space-y-1">
+            <li>Live updates on an LCD screen</li>
+            <li>Range up to <strong>3 miles</strong></li>
+            <li>Rechargeable and responsive</li>
+          </ul>
+        </div>
+
+        <!-- DroneMobile -->
+        <div class="bg-white rounded-2xl shadow p-6 col-span-full md:col-span-2 lg:col-span-1">
+          <img src="Phone Front x3.png" alt="DroneMobile App" class="mx-auto mb-4 h-40">
+          <h3 class="text-xl font-semibold mb-2">DroneMobile App</h3>
+          <ul class="text-left text-gray-600 list-disc list-inside space-y-1">
+            <li>Start/stop & lock/unlock via smartphone</li>
+            <li>Track your car from <strong>anywhere</strong></li>
+            <li>Alerts and GPS built-in</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+<!-- Contact Section -->
+<section id="contact" class="bg-gray-100 py-16 px-6">
+  <div class="max-w-2xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+    <p class="mb-4 text-gray-600">Quotes are customized based on your vehicle. Please include the following:</p>
+    <form action="https://formspree.io/f/mnqeyrlz" method="POST" class="text-left space-y-4">
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Your Name</label>
+        <input type="text" name="name" required class="w-full border border-gray-300 rounded-lg p-2 mt-1" />
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Email Address</label>
+        <input type="email" name="email" required class="w-full border border-gray-300 rounded-lg p-2 mt-1" />
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Vehicle Make, Model & Year</label>
+        <input type="text" name="vehicle_info" required class="w-full border border-gray-300 rounded-lg p-2 mt-1" />
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Transmission Type</label>
+        <select name="transmission" required class="w-full border border-gray-300 rounded-lg p-2 mt-1">
+          <option value="">Select</option>
+          <option>Automatic</option>
+          <option>Manual</option>
+        </select>
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Start Type</label>
+        <select name="start_type" required class="w-full border border-gray-300 rounded-lg p-2 mt-1">
+          <option value="">Select</option>
+          <option>Key Start</option>
+          <option>Push-to-Start</option>
+        </select>
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Message (Optional)</label>
+        <textarea name="message" rows="4" class="w-full border border-gray-300 rounded-lg p-2 mt-1"></textarea>
+      </div>
+      <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700">Send Message</button>
+    </form>
+  </div>
+</section>
+
+  <section id="contact" class="bg-gray-100 py-16 px-6">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+      <p class="mb-4 text-gray-600">Quotes are customized based on your vehicle. Please include the following in your message:</p>
+      <ul class="text-left text-gray-700 list-disc list-inside mb-4">
+        <li>Vehicle make, model, and year</li>
+        <li>Transmission type (automatic/manual)</li>
+        <li>Key start or push-to-start</li>
+      </ul>
+      <p class="text-lg font-semibold text-blue-700">Email: <a href="mailto:lmcautomotive.ca@gmail.com">lmcautomotive.ca@gmail.com</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t text-center py-6 text-sm text-gray-500">
+    &copy; 2025 LMC Automotive. All rights reserved.
+  </footer>
+</body>
+</html>
